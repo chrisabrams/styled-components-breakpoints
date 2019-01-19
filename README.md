@@ -39,7 +39,7 @@ It is recommended that the `const media` be placed in a file so that `breakpoint
     // Will return a media query with a max-width of 768
     // @media only screen and (max-width: 768px)
 
-### Onky
+### Only
     breakpoint.only('m')
     // Will return a range media query between "m" and the next upper breakpoint "l"
     // @media only screen and (min-width: 768px) and (max-width: 1200px)
