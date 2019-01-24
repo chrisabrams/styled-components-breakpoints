@@ -2,7 +2,7 @@
 Provides a mixin for Styled Components to handle media query widths & ranges by logical names. It is a fork from [this library](https://github.com/wearehumblebee/styled-components-breakpoint).
 
 ## Installation
-    yarn install styled-components-breakpoints
+    yarn add styled-components-breakpoints
     # or
     npm install styled-components-breakpoints
 
