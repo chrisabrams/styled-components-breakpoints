@@ -1,5 +1,5 @@
 # Styled Components Breakpoints
-Provides a mixin for Styled Components to handle media query widths & ranges by logical names. It is a fork from [this library](https://github.com/wearehumblebee/styled-components-breakpoint).
+Provides a mixin for Styled Components to handle media query widths & ranges by logical names.
 
 ## Installation
     yarn add styled-components-breakpoints

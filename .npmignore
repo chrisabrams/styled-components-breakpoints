@@ -6,4 +6,6 @@ test
 tsconfig.build.json
 tsconfig.json
 .vscode
+.yarn
+.yarnrc.yml
 yarn.lock

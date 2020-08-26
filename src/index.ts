@@ -1,10 +1,10 @@
 import { css } from 'styled-components'
 
 type ACC = number | null | undefined
+
 type Rule = 'minWidth' | 'maxWidth' | 'only'
-interface Breakpoints {
-  [key: string]: number
-}
+
+export type Breakpoints = Record<string, number>
 
 export const defaultBreakpoints: Breakpoints = {
   xxs: 0,
