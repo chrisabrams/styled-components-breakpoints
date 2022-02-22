@@ -1,6 +1,7 @@
 // For a detailed explanation regarding each configuration property, visit:
 // https://jestjs.io/docs/en/configuration.html
 
+const { defaults } = require('jest-config')
 const path = require('path')
 
 module.exports = {
@@ -70,9 +71,9 @@ module.exports = {
 
   // An array of file extensions your modules use
   moduleFileExtensions: [
+    ...defaults.moduleFileExtensions,
     "ts",
-    "tsx",
-    "js"
+    "tsx"
   ],
 
   // A map from regular expressions to module names that allow to stub out resources with a single module

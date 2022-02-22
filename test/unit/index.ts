@@ -1,4 +1,4 @@
-import { expect } from 'test/helpers'
+import { expect } from '../helpers'
 import media, {
   defaultBreakpoints as breakpoints,
   mediaWidthRule,
@@ -7,7 +7,7 @@ import media, {
   getSmallestMedia,
   getNextMedia,
   mediaRules,
-} from 'src/index'
+} from '../../src/index'
 
 describe('mediaWidthRule', () => {
 
